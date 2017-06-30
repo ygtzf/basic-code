@@ -7,7 +7,8 @@ int main(int argc, char **argv)
 
     //TODO: how can I get the length of a arrary of int type
     //bubble_sort(a, 12);
-    simple_selection_sort(a, 12);
+    //simple_selection_sort(a, 12);
+    quick_sort(a, 12);
     
     sort_print(a, 12);
 }
