@@ -6,11 +6,11 @@ void bubble_sort(int* t, int size)
 {
     int tt = 0;
 
-    for (int i=0; i<size; i++)
+    for (int i=0; i<size-1; i++)
     {
         for (int j=i+1; j<size; j++)
         {
-            if (t[i] < t[j]) 
+            if (t[i] > t[j])
             {
                 tt = t[j];
                 t[j] = t[i];
