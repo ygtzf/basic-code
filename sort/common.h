@@ -7,6 +7,7 @@ using namespace std;
 #include "bubble_sort.h"
 #include "simple_selection_sort.h"
 #include "quick_sort.h"
+#include "directly_insert_sort.h"
 
 void sort_print(int* arr, int);
 
