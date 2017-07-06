@@ -9,7 +9,8 @@ int main(int argc, char **argv)
     //bubble_sort(a, 12);
     //simple_selection_sort(a, 12);
     //quick_sort(a, 12);
-    directly_insert_sort(a, 12);
+    //directly_insert_sort(a, 12);
+    shell_sort(a, 12);
     
     sort_print(a, 12);
 }

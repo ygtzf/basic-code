@@ -8,6 +8,7 @@ using namespace std;
 #include "simple_selection_sort.h"
 #include "quick_sort.h"
 #include "directly_insert_sort.h"
+#include "shell_sort.h"
 
 void sort_print(int* arr, int);
 
